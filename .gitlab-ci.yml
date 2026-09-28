@@ -1,0 +1,6 @@
+# Upstream mirror. Group runners do not accept untagged Auto DevOps jobs,
+# so a push without this file schedules build/test/code_quality and they
+# fail with stuck_pending_no_matching_runners.
+workflow:
+  rules:
+    - when: never
