@@ -1,0 +1,8 @@
+{
+  "app": "raven_cloud",
+  "package_dir": "raven_cloud",
+  "mode": "repository",
+  "gitflow": false,
+  "frontend_tests": false,
+  "skip_test_records": false
+}
